@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title data-rh="true">Flood Risk Assessment (FRA) for Planning Conditions — UK | Zevlo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
+    rel="stylesheet">
+  <!-- Per-route <title>, description, canonical and og:* are injected via vite-react-ssg <Head>. -->
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/opengraph/fimsco-og.png">
+  <script defer src="../../components/header.js"></script>
+<script defer src="../../components/footer.js"></script>
+<script defer src="../../assets/js/main.js"></script>
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+
+<body>
+  <div id="root" data-server-rendered="true">
+    <div role="region" aria-label="Notifications (F8)" tabindex="-1">
+      <ol tabindex="-1"
+        class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+      </ol>
+    </div>
+    <section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text"
+      aria-atomic="false"></section>
+    <div class="min-h-screen flex flex-col">
+      <header data-component="header"></header>
+      <main class="flex-1">
+        <div class="container py-4">
+          <nav aria-label="breadcrumb">
+            <ol class="flex flex-wrap items-center gap-1.5 break-words text-sm text-muted-foreground sm:gap-2.5">
+              <li class="inline-flex items-center gap-1.5"><a class="transition-colors hover:text-foreground"
+                  href="../../index.html">Home</a></li>
+              <li role="presentation" aria-hidden="true" class="[&amp;>svg]:size-3.5"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-chevron-right">
+                  <path d="m9 18 6-6-6-6"></path>
+                </svg></li>
+              <li class="inline-flex items-center gap-1.5"><a class="transition-colors hover:text-foreground"
+                  href="">Planning Conditions</a></li>
+              <li role="presentation" aria-hidden="true" class="[&amp;>svg]:size-3.5"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-chevron-right">
+                  <path d="m9 18 6-6-6-6"></path>
+                </svg></li>
+              <li class="inline-flex items-center gap-1.5"><span role="link" aria-disabled="true" aria-current="page"
+                  class="font-normal text-foreground">Flood Risk Assessment</span></li>
+            </ol>
+          </nav>
+        </div>
+        <div class="container py-12">
+          <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+              <h1
+                class="text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+                Assessing, Managing and Reducing Flood Risk</h1>
+              <p class="text-xl text-muted-foreground max-w-3xl mx-auto">Expert flood risk assessments for planners,
+                developers, and conveyancers throughout the UK</p>
+            </div>
+            <section class="mb-16">
+              <div
+                class="bg-gradient-to-r from-destructive/10 via-destructive/5 to-transparent p-8 rounded-xl border-l-4 border-destructive mb-8">
+                <h2 class="text-2xl font-bold mb-4 text-destructive">🚨 Delayed or Refused Planning Approval Due to
+                  Flood Risk?</h2>
+                <p class="text-lg text-foreground/90 mb-6">We can provide flood risk assessments (FRAs) to planners,
+                  developers, and conveyancers throughout the UK.</p>
+                <p class="text-base text-muted-foreground">As a specialist flood and environmental risk consultancy, we
+                  provide a full range of services to test, collate, and submit a flood risk assessment for UK planning
+                  applications. We can work with any size of development and our experience with submitting planning
+                  proposals to local and national planning authorities saves you time and money as we know exactly what
+                  they're looking for.</p>
+              </div>
+              <div class="grid lg:grid-cols-2 gap-8 items-center">
+                <div><img src="../../assets/images/flood-risk-modelling-BdCkJIbo.jpg"
+                    alt="Professional flood risk assessment with technical flood modelling and Environment Agency mapping"
+                    class="rounded-xl shadow-2xl w-full hover:scale-105 transition-transform duration-300"></div>
+                <div>
+                  <div class="space-y-4">
+                    <div
+                      class="bg-card p-6 rounded-lg border border-border/50 hover:border-primary/50 transition-colors">
+                      <h3 class="font-semibold text-lg mb-2 text-primary">✓ Climate Change Compliant</h3>
+                      <p class="text-sm text-muted-foreground">All current allowances and future projections included
+                      </p>
+                    </div>
+                    <div
+                      class="bg-card p-6 rounded-lg border border-border/50 hover:border-primary/50 transition-colors">
+                      <h3 class="font-semibold text-lg mb-2 text-primary">✓ Environment Agency Approved</h3>
+                      <p class="text-sm text-muted-foreground">Direct consultation and approval process</p>
+                    </div>
+                    <div
+                      class="bg-card p-6 rounded-lg border border-border/50 hover:border-primary/50 transition-colors">
+                      <h3 class="font-semibold text-lg mb-2 text-primary">✓ Expert Support</h3>
+                      <p class="text-sm text-muted-foreground">Sequential test support and LLFA consultation</p>
+                    </div>
+                  </div>
+                  <div class="mt-6"><a href="../../get-quote.html"><button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-gradient-primary text-primary-foreground hover:shadow-md hover:scale-[1.02] active:scale-[0.98] h-11 rounded-md px-8 w-full">Get
+                        Your FRA Quote →</button></a></div>
+                </div>
+              </div>
+            </section>
+            <section class="mb-16">
+              <h2 class="text-3xl font-bold mb-8 text-center">Which Developments Need a Flood Risk Assessment?</h2>
+              <div class="bg-gradient-to-br from-card to-muted/30 p-8 rounded-xl border border-border mb-8">
+                <p class="text-lg mb-6 text-foreground/90">Flood risk assessments are now a requirement for sites under
+                  development, especially those planned for a Zone 2 or Zone 3 flood risk area.</p>
+                <p class="text-base text-muted-foreground mb-6">The Planning Authority may delay or refuse planning
+                  approval on receipt of an objection to the development from the Environment Agency (England). The
+                  Government Agency will usually object to planning applications for the following reasons:</p>
+                <div class="grid md:grid-cols-2 gap-4">
+                  <div class="bg-destructive/10 p-6 rounded-lg border border-destructive/20">
+                    <h3 class="font-semibold mb-2 text-destructive">Sequential &amp; Exception Tests</h3>
+                    <p class="text-sm text-foreground/80">Failure to apply or meet the requirements of the Sequential
+                      and Exceptions Tests (England)</p>
+                  </div>
+                  <div class="bg-destructive/10 p-6 rounded-lg border border-destructive/20">
+                    <h3 class="font-semibold mb-2 text-destructive">Missing FRA</h3>
+                    <p class="text-sm text-foreground/80">The planning application is not supported by a site specific
+                      Flood Risk Assessment</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="mb-16">
+              <div class="bg-gradient-to-br from-primary/5 to-transparent p-8 rounded-xl border border-primary/20 mb-8">
+                <p class="text-lg text-foreground/90">We support developers every day to get their planning approved in
+                  flood risk areas. We possess the necessary skills and have extensive experience in the preparation of
+                  Sequential and Exceptions Test Reports; and Flood Risk Assessments to comply with current planning
+                  policy for developments of all sizes; and can deliver high quality reports at competitive prices
+                  throughout England.</p>
+              </div>
+            </section>
+            <section class="mb-16">
+              <h2 class="text-3xl font-bold mb-8 text-center">Our Expertise Increases Your Chances of Planning
+                Application Success</h2>
+              <div class="bg-card p-8 rounded-xl border border-border mb-6">
+                <p class="text-base text-muted-foreground mb-6">We are a specialist consultancy for UK flood and
+                  environmental risk. We're focused towards supporting developments and construction projects of all
+                  sizes. We support planning applications in multiple sectors, including residential, commercial, power,
+                  renewable energy, and infrastructure.</p>
+                <p class="text-base text-muted-foreground mb-6">If your site is within Flood Zone 2 or 3, or is over one
+                  hectare within Flood Zone 1, national planning policies now require your planning application to
+                  include a flood risk assessment (FRA).</p>
+                <p class="text-base text-muted-foreground">Our experienced consultants stay up-to-date with the latest
+                  policy changes and use only the highest quality data to support your planning application, giving you
+                  the best chance at achieving planning approval. We can also provide a full range of services to test,
+                  collate, and submit FRA's for any size development, including those in Critical Drainage Areas (CDAs).
+                </p>
+              </div>
+              <div class="bg-gradient-to-br from-accent/5 to-transparent p-8 rounded-xl border border-accent/20 mb-8">
+                <h3 class="text-xl font-bold mb-4">How to Check if Your Development is in a Flood Zone</h3>
+                <p class="text-base text-muted-foreground">You can check if your development is within a flood zone, and
+                  therefore whether an FRA is required for your planning application, by looking at the Environment
+                  Agency's flood maps.</p>
+              </div>
+            </section>
+            <section class="mb-16">
+              <h2 class="text-3xl font-bold mb-8 text-center">Flood Risk Assessment Requirements</h2>
+              <p class="text-base text-muted-foreground mb-6">You must complete a site specific Flood Risk Assessment to
+                support your planning application if your proposed development:</p>
+              <div class="grid md:grid-cols-2 gap-4 mb-8">
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-shadow">
+                  <div class="p-6">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-2 rounded-full mt-1">
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                      </div>
+                      <div>
+                        <p class="text-sm">Has been requested to carry out the flood risk assessment by the planning
+                          department</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-shadow">
+                  <div class="p-6">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-2 rounded-full mt-1">
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                      </div>
+                      <div>
+                        <p class="text-sm">Includes building or engineering works within Flood Zones 2 and/or 3 and is
+                          therefore at risk of flooding from a river or the sea</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-shadow">
+                  <div class="p-6">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-2 rounded-full mt-1">
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                      </div>
+                      <div>
+                        <p class="text-sm">Includes building or engineering works on land or within an area which is
+                          identified to have critical drainage problems</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-shadow">
+                  <div class="p-6">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-2 rounded-full mt-1">
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                      </div>
+                      <div>
+                        <p class="text-sm">Changes the use of land or buildings in a place at risk of flooding from
+                          rivers or the sea, or with critical drainage problems</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-shadow">
+                  <div class="p-6">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-2 rounded-full mt-1">
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                      </div>
+                      <div>
+                        <p class="text-sm">Changes the use of land or buildings in a way that increases flood
+                          vulnerability of the development where it may be subject to other sources of flooding</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-shadow">
+                  <div class="p-6">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-2 rounded-full mt-1">
+                        <div class="w-2 h-2 bg-primary rounded-full"></div>
+                      </div>
+                      <div>
+                        <p class="text-sm font-semibold">Is larger than 1 Hectare</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-primary/5 p-6 rounded-xl border border-primary/20">
+                <p class="text-base text-foreground/90">We can help you fully understand your flood risks, meet your
+                  planning application requirements, and recommend strategies to address complex flood risks that could
+                  stand in the way of you getting planning approval.</p>
+              </div>
+            </section>
+            <section class="mb-16">
+              <h2 class="text-3xl font-bold mb-8 text-center">How We Produce Your Flood Risk Assessment</h2>
+              <div class="bg-gradient-to-br from-primary/5 to-transparent p-8 rounded-xl border border-primary/20 mb-8">
+                <p class="text-lg mb-6 text-foreground/90">Once you give us your plans for the development of the site,
+                  we'll liaise with the relevant governing body and your local planning authority to assess their exact
+                  requirements. We'll then request the necessary data to accurately assess the flood risk.</p>
+                <p class="text-base text-muted-foreground mb-6">Each of our FRAs combine the detailed information about
+                  previous flood events and consider the potential risks from rainfall, groundwater, rivers, and the
+                  sea. We'll tailor them to match your requirements and advise you on exactly what you need to do to
+                  mitigate in each case.</p>
+                <p class="text-base text-muted-foreground">At every step we can advise you on design approaches to
+                  reduce the flood risk to your site. We often act as intermediaries between architects or planning
+                  consultants and the environment authority, putting us in a strong position to pass on design solutions
+                  to strengthen your planning approval application.</p>
+              </div>
+              <div class="grid md:grid-cols-3 gap-6 mb-8">
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm border-t-4 border-t-primary hover:shadow-xl transition-all">
+                  <div class="p-6 text-center">
+                    <div class="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span class="text-2xl">🗺️</span></div>
+                    <h3 class="font-semibold mb-2">Latest EA Flood Maps</h3>
+                    <p class="text-sm text-muted-foreground">Using current Environment Agency flood mapping for planning
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm border-t-4 border-t-primary hover:shadow-xl transition-all">
+                  <div class="p-6 text-center">
+                    <div class="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span class="text-2xl">🌧️</span></div>
+                    <h3 class="font-semibold mb-2">Surface Water Risk</h3>
+                    <p class="text-sm text-muted-foreground">Risk of flooding from surface water assessment</p>
+                  </div>
+                </div>
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm border-t-4 border-t-primary hover:shadow-xl transition-all">
+                  <div class="p-6 text-center">
+                    <div class="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span class="text-2xl">🔬</span></div>
+                    <h3 class="font-semibold mb-2">1D/2D Modelling</h3>
+                    <p class="text-sm text-muted-foreground">Bespoke hydraulic modelling aligned with latest guidance
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-lg border bg-card text-card-foreground shadow-sm bg-gradient-to-r from-card to-muted/30">
+                <div class="p-8">
+                  <h3 class="text-xl font-bold mb-4">Our FRA Will Assist the Local Planning Authority By Providing:</h3>
+                  <div class="grid md:grid-cols-3 gap-6">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary text-primary-foreground rounded-full p-1 mt-1"><svg class="w-4 h-4"
+                          fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">Details of the flood risks which impact the site and how they will change over
+                        the lifetime of the development</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary text-primary-foreground rounded-full p-1 mt-1"><svg class="w-4 h-4"
+                          fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">Whether a development will cause an increase in flood risk both within and
+                        external to the site</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary text-primary-foreground rounded-full p-1 mt-1"><svg class="w-4 h-4"
+                          fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">How flood risk within the site will be managed</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="mb-16">
+              <h2 class="text-3xl font-bold mb-8 text-center">How Our FRAs Can Benefit Planning Applications</h2>
+              <div class="grid md:grid-cols-3 gap-6 mb-8">
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm border-t-4 border-t-success hover:shadow-xl transition-all">
+                  <div class="p-6 text-center">
+                    <div class="bg-success/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span class="text-2xl">💰</span></div>
+                    <h3 class="font-semibold mb-2">Reduce Costs</h3>
+                    <p class="text-sm text-muted-foreground">Reduce the costs associated with planning delays and design
+                      changes</p>
+                  </div>
+                </div>
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm border-t-4 border-t-success hover:shadow-xl transition-all">
+                  <div class="p-6 text-center">
+                    <div class="bg-success/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span class="text-2xl">⚡</span></div>
+                    <h3 class="font-semibold mb-2">Speed Up Process</h3>
+                    <p class="text-sm text-muted-foreground">Speed up the planning process through improved
+                      communication with Environment Agency and local planning authorities</p>
+                  </div>
+                </div>
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm border-t-4 border-t-success hover:shadow-xl transition-all">
+                  <div class="p-6 text-center">
+                    <div class="bg-success/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span class="text-2xl">✅</span></div>
+                    <h3 class="font-semibold mb-2">Improve Success</h3>
+                    <p class="text-sm text-muted-foreground">Improve your chances of securing planning permission</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-gradient-to-br from-primary/5 to-transparent p-8 rounded-xl border border-primary/20">
+                <h3 class="text-xl font-bold mb-4">The Flood Risk Team Can Analyse Multiple Data Sources to Provide an
+                  In-Depth Assessment That:</h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                  <div class="flex items-start gap-3">
+                    <div class="bg-primary text-primary-foreground rounded-full p-1 mt-1"><svg class="w-4 h-4"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg></div>
+                    <p class="text-sm">Meets essential requirements for planning applications</p>
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <div class="bg-primary text-primary-foreground rounded-full p-1 mt-1"><svg class="w-4 h-4"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg></div>
+                    <p class="text-sm">Identifies and addresses any potential risks to planning application approval</p>
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <div class="bg-primary text-primary-foreground rounded-full p-1 mt-1"><svg class="w-4 h-4"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg></div>
+                    <p class="text-sm">Suggests potential mitigation measures if risk is discovered</p>
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <div class="bg-primary text-primary-foreground rounded-full p-1 mt-1"><svg class="w-4 h-4"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg></div>
+                    <p class="text-sm">Assesses the development proposals against national and regional planning
+                      policies</p>
+                  </div>
+                  <div class="flex items-start gap-3 md:col-span-2">
+                    <div class="bg-primary text-primary-foreground rounded-full p-1 mt-1"><svg class="w-4 h-4"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                      </svg></div>
+                    <p class="text-sm">Ascertains the likelihood and extent of flooding both now and in the future</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="mb-16">
+              <h2 class="text-3xl font-bold mb-8 text-center">How We Can Support Your High Flood Risk Development</h2>
+              <div class="bg-card p-8 rounded-xl border border-border mb-8">
+                <p class="text-base text-muted-foreground">We tailor all of our flood risk assessments and associated
+                  services to your requirements. Each report or assessment will address the specific issues or
+                  requirements that your local planning authority might have so you can be sure you're covering every
+                  necessary base.</p>
+              </div>
+              <h3 class="text-2xl font-bold mb-6">The Services That We Frequently Undertake and Are Therefore Very
+                Experienced In Are:</h3>
+              <div class="grid md:grid-cols-2 gap-4 mb-8">
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-1 rounded mt-1"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">Flood risk assessment for planning applications</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-1 rounded mt-1"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">1D and 2D computational flood modelling to support planning applications</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-1 rounded mt-1"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">Groundwater flood risk assessments or basement impact assessments</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-1 rounded mt-1"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">Sequential and exception testing</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-1 rounded mt-1"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">Surface water drainage strategies</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-1 rounded mt-1"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">Flood response plans</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-1 rounded mt-1"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">Advice on flood defences and flood risk management</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-1 rounded mt-1"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">Reports to gain credits for BREEAM environmental accreditation</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-1 rounded mt-1"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">Surface water drainage strategies, flood response, flood warning and evacuation
+                        plans</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary/10 p-1 rounded mt-1"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm">Attendance at Committee and Appeal as and when required</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="mb-16">
+              <h2 class="text-3xl font-bold mb-8 text-center">Specialist Flood Risk Services</h2>
+              <div class="grid lg:grid-cols-2 gap-8">
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-shadow">
+                  <div class="p-6">
+                    <h3 class="text-xl font-bold mb-4 text-primary">1D and 2D Computational Flood Modelling</h3>
+                    <p class="text-sm text-muted-foreground mb-4">Flood modelling is particularly useful if your site
+                      falls within Zone 2 or 3 (medium or high flood risk). It can also be useful if your site is close
+                      to a river, watercourse, or drain.</p>
+                    <p class="text-sm text-muted-foreground">To use this flood modelling, we'll need to visit your site
+                      for data collection and then we can produce detailed hydrological models of worst-case scenarios.
+                      This modelling data can really benefit your planning application if you have a high risk of
+                      flooding.</p>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-shadow">
+                  <div class="p-6">
+                    <h3 class="text-xl font-bold mb-4 text-primary">Groundwater and Basement Developments</h3>
+                    <p class="text-sm text-muted-foreground mb-4">If the local planning authority has flagged
+                      groundwater as a potential issue with the site, we can develop a detailed conceptual model to
+                      assess the risk to the property and design mitigation measures if required.</p>
+                    <p class="text-sm text-muted-foreground">We can also provide site-specific basement impact
+                      assessment reports to detail any risk posed by your proposed basement development on your property
+                      and the surrounding area. In some boroughs of London, this is now a requirement for basement
+                      construction.</p>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-shadow">
+                  <div class="p-6">
+                    <h3 class="text-xl font-bold mb-4 text-primary">Sequential and Exception Testing</h3>
+                    <p class="text-sm text-muted-foreground mb-4">A sequential test is used to steer new developments
+                      towards areas with the lowest possibility of flooding. If your site has not been allocated or
+                      tested then you may need to include this within your planning application.</p>
+                    <p class="text-sm text-muted-foreground">This requires a comparative analysis of the flood risk to
+                      your development site compared to other potential sites that fall within the comparison area. Our
+                      consultants can advise you whether it's required or not for your development.</p>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-shadow">
+                  <div class="p-6">
+                    <h3 class="text-xl font-bold mb-4 text-primary">Sustainable Drainage Strategies (SuDS)</h3>
+                    <p class="text-sm text-muted-foreground mb-4">Local planning authorities often require developers to
+                      plan how they will manage surface water for their development. We can provide Sustainable Drainage
+                      Strategy (SuDS) reports to satisfy this requirement.</p>
+                    <p class="text-sm text-muted-foreground">If a surface water plan is already in place, we can check
+                      this strategy with policy guidelines to make sure it has the best chance of gaining planning
+                      approval.</p>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-shadow">
+                  <div class="p-6">
+                    <h3 class="text-xl font-bold mb-4 text-primary">BREEAM Accreditation</h3>
+                    <p class="text-sm text-muted-foreground">We can help you get credits for environmental
+                      accreditations to help you gain better management of environmental risks, increased access to new
+                      customers and business partners, demonstrate legal and regulatory compliance, and the potential
+                      for reduced liability insurance costs.</p>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-shadow">
+                  <div class="p-6">
+                    <h3 class="text-xl font-bold mb-4 text-primary">Flood Response Plans</h3>
+                    <p class="text-sm text-muted-foreground">Our reports can also include suggestions that will enable
+                      you to set up and maintain flood warning and evacuation plans in the event of various levels of
+                      potential flooding.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="mb-16">
+              <div class="bg-gradient-to-br from-card to-muted/50 p-8 rounded-xl border border-border">
+                <h3 class="text-2xl font-bold mb-6">Our Flood Risk Team Provides In-Depth Analysis That:</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                  <div class="space-y-4">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary text-primary-foreground rounded-lg p-2 mt-1"><svg class="w-5 h-5"
+                          fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <div>
+                        <h4 class="font-semibold mb-1">Meets Essential Requirements</h4>
+                        <p class="text-sm text-muted-foreground">Meets essential requirements for planning applications
+                        </p>
+                      </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary text-primary-foreground rounded-lg p-2 mt-1"><svg class="w-5 h-5"
+                          fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <div>
+                        <h4 class="font-semibold mb-1">Identifies Risks</h4>
+                        <p class="text-sm text-muted-foreground">Identifies and addresses any potential risks to
+                          planning application approval</p>
+                      </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary text-primary-foreground rounded-lg p-2 mt-1"><svg class="w-5 h-5"
+                          fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <div>
+                        <h4 class="font-semibold mb-1">Suggests Mitigation</h4>
+                        <p class="text-sm text-muted-foreground">Suggests potential mitigation measures if risk is
+                          discovered</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="space-y-4">
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary text-primary-foreground rounded-lg p-2 mt-1"><svg class="w-5 h-5"
+                          fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <div>
+                        <h4 class="font-semibold mb-1">Policy Assessment</h4>
+                        <p class="text-sm text-muted-foreground">Assesses the development proposals against national and
+                          regional planning policies</p>
+                      </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                      <div class="bg-primary text-primary-foreground rounded-lg p-2 mt-1"><svg class="w-5 h-5"
+                          fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <div>
+                        <h4 class="font-semibold mb-1">Future Projection</h4>
+                        <p class="text-sm text-muted-foreground">Ascertains the likelihood and extent of flooding both
+                          now and in the future</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="mb-16">
+              <h2 class="text-3xl font-bold mb-8 text-center">Comprehensive Flood Risk Services</h2>
+              <div class="bg-gradient-to-br from-muted/50 to-transparent p-8 rounded-xl border border-border mb-8">
+                <p class="text-lg mb-6 text-center text-foreground/90">We tailor all of our flood risk assessments and
+                  associated services to your requirements. Each report or assessment will address the specific issues
+                  or requirements that your local planning authority might have so you can be sure you're covering every
+                  necessary base.</p>
+              </div>
+              <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
+                  <div class="p-6">
+                    <div class="bg-primary/10 p-3 rounded-lg w-fit mb-4"><span class="text-2xl">📋</span></div>
+                    <h3 class="font-bold mb-2">Flood Risk Assessment</h3>
+                    <p class="text-sm text-muted-foreground">Comprehensive FRAs for planning applications</p>
+                  </div>
+                </div>
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
+                  <div class="p-6">
+                    <div class="bg-primary/10 p-3 rounded-lg w-fit mb-4"><span class="text-2xl">🔬</span></div>
+                    <h3 class="font-bold mb-2">1D and 2D Flood Modelling</h3>
+                    <p class="text-sm text-muted-foreground">Computational flood modelling to support planning
+                      applications</p>
+                  </div>
+                </div>
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
+                  <div class="p-6">
+                    <div class="bg-primary/10 p-3 rounded-lg w-fit mb-4"><span class="text-2xl">💧</span></div>
+                    <h3 class="font-bold mb-2">Groundwater Assessment</h3>
+                    <p class="text-sm text-muted-foreground">Groundwater flood risk and basement impact assessments</p>
+                  </div>
+                </div>
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
+                  <div class="p-6">
+                    <div class="bg-primary/10 p-3 rounded-lg w-fit mb-4"><span class="text-2xl">🎯</span></div>
+                    <h3 class="font-bold mb-2">Sequential &amp; Exception Testing</h3>
+                    <p class="text-sm text-muted-foreground">Comparative analysis for high flood risk sites</p>
+                  </div>
+                </div>
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
+                  <div class="p-6">
+                    <div class="bg-primary/10 p-3 rounded-lg w-fit mb-4"><span class="text-2xl">🌊</span></div>
+                    <h3 class="font-bold mb-2">Surface Water Drainage</h3>
+                    <p class="text-sm text-muted-foreground">Sustainable drainage strategies and SuDS design</p>
+                  </div>
+                </div>
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
+                  <div class="p-6">
+                    <div class="bg-primary/10 p-3 rounded-lg w-fit mb-4"><span class="text-2xl">📱</span></div>
+                    <h3 class="font-bold mb-2">Flood Response Plans</h3>
+                    <p class="text-sm text-muted-foreground">Flood warning and evacuation plans</p>
+                  </div>
+                </div>
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
+                  <div class="p-6">
+                    <div class="bg-primary/10 p-3 rounded-lg w-fit mb-4"><span class="text-2xl">🛡️</span></div>
+                    <h3 class="font-bold mb-2">Flood Defence Advice</h3>
+                    <p class="text-sm text-muted-foreground">Advice on flood defences and flood risk management</p>
+                  </div>
+                </div>
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
+                  <div class="p-6">
+                    <div class="bg-primary/10 p-3 rounded-lg w-fit mb-4"><span class="text-2xl">🌱</span></div>
+                    <h3 class="font-bold mb-2">BREEAM Assessment</h3>
+                    <p class="text-sm text-muted-foreground">Reports to gain credits for BREEAM environmental
+                      accreditation</p>
+                  </div>
+                </div>
+                <div
+                  class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
+                  <div class="p-6">
+                    <div class="bg-primary/10 p-3 rounded-lg w-fit mb-4"><span class="text-2xl">📊</span></div>
+                    <h3 class="font-bold mb-2">Hydraulic River Modelling</h3>
+                    <p class="text-sm text-muted-foreground">Advanced river modelling for complex sites</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="mb-16">
+              <div
+                class="bg-gradient-to-r from-primary/10 via-primary/5 to-transparent p-10 rounded-xl border border-primary/20">
+                <h2 class="text-3xl font-bold mb-8 text-center">When You Work With Zevlo, You Increase Your Chances of
+                  Planning Approval Success</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                  <div class="text-center">
+                    <div class="bg-primary/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span class="text-3xl">👥</span></div>
+                    <h3 class="font-bold mb-3">Experienced Team</h3>
+                    <p class="text-sm text-muted-foreground">A highly experienced and responsive team that are happy to
+                      answer any questions you may have along the way</p>
+                  </div>
+                  <div class="text-center">
+                    <div class="bg-primary/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span class="text-3xl">⚙️</span></div>
+                    <h3 class="font-bold mb-3">ICE Engineers On Hand</h3>
+                    <p class="text-sm text-muted-foreground">Internal ICE Engineers on hand should any issues come up
+                      and new designs need to be proposed</p>
+                  </div>
+                  <div class="text-center">
+                    <div class="bg-primary/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span class="text-3xl">🤝</span></div>
+                    <h3 class="font-bold mb-3">Great Relationships</h3>
+                    <p class="text-sm text-muted-foreground">Great relationships with Environment Agency and local
+                      planning authorities for rapid report turnaround</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="mb-16">
+              <h2 class="text-3xl font-bold mb-8 text-center">How Long Does a Flood Risk Assessment Take?</h2>
+              <div class="bg-card p-8 rounded-xl border border-border mb-8">
+                <p class="text-base mb-6">Over the years, we've developed a great working relationship with each
+                  governing agency throughout the UK. We know the best ways to obtain their data, so we can deliver
+                  flood risk assessments both quickly and efficiently.</p>
+                <p class="text-base mb-6">We request much of our data from the Environment Agency (EA), or the relevant
+                  governing agency, so our turnaround is determined by their workload at the time. The EA have a
+                  statutory 20 working day turnaround for all enquiries, including data. Sometimes, we can achieve a
+                  quicker turnaround if the EA's workload in your area is low.</p>
+                <p class="text-base text-muted-foreground">Generally, it will take those 20 days for us to receive the
+                  data as a regulatory time. From then, we conduct thorough analysis with our in-house GIS software.
+                  Once this is done, we'll review the results with you and examine the risk of flooding before we
+                  complete the report. We make sure to keep you up-to-date throughout the whole process so you're always
+                  aware of timelines so you can get on with organising the rest of the planning application.</p>
+              </div>
+              <div class="rounded-lg border text-card-foreground shadow-sm border-l-4 border-l-primary bg-primary/5">
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-3">⚡ Can I Fast-Track an FRA?</h3>
+                  <p class="text-base text-muted-foreground">We can fast-track your Flood Risk Assessment if you're
+                    working to a tight timescale and need to get your planning application validated right away. We can
+                    put a rush on our analysis work, however, we're still beholden to the relevant agency for their
+                    data. Thanks to our great relationship, we can usually get data a little quicker if necessary but we
+                    can't guarantee this.</p>
+                </div>
+              </div>
+            </section>
+            <section class="mb-16">
+              <h2 class="text-3xl font-bold mb-8 text-center">Additional Flood Risk Services</h2>
+              <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Strategic Flood Risk Assessment</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Flood Map Challenge</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Insurance &amp; Business Continuity</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Non-adoptable Wastewater Treatment</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Drainage Strategy Development</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">EIA Chapters</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Percolation Testing</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Soakaway Design</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Sustainable Drainage (SUDS) Design</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Feasibility Assessment</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Construction Environmental Management Plans</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Property Level Protection</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Flood Storage Compensation</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Hydrological Assessment</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Detailed Drainage Design (unadopted)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover:shadow-md transition-shadow">
+                  <div class="p-4">
+                    <div class="flex items-center gap-2">
+                      <div class="bg-primary/10 p-1 rounded"><svg class="w-4 h-4 text-primary" fill="none"
+                          stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                          </path>
+                        </svg></div>
+                      <p class="text-sm font-medium">Detailed Drainage Design (S104)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section
+              class="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground p-12 rounded-xl text-center">
+              <h2 class="text-3xl font-bold mb-4">Ready to Get Your Flood Risk Assessment?</h2>
+              <p class="text-lg mb-8 opacity-90 max-w-2xl mx-auto">Don't let flood risk assessments delay your project.
+                Work with experienced consultants who know exactly what planning authorities are looking for.</p>
+              <div class="flex flex-wrap justify-center gap-4"><a href="../../get-quote.html"><button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:shadow-sm h-11 rounded-md px-8 bg-white text-primary hover:bg-white/90 font-semibold">Get
+                    Your Free Quote →</button></a><a href="../../contact/index.html"><button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border bg-background hover:shadow-sm h-11 rounded-md px-8 border-white text-white hover:bg-white/10">Contact
+                    Our Team</button></a></div>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer data-component="footer"></footer>
+    </div>
+</div>
+</body>
+
+</html>
